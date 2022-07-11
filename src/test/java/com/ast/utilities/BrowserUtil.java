@@ -8,10 +8,31 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BrowserUtil {
 
-    /** Title verification */
-    public static void verifyTitle(WebDriver driver, String expectedTitle){
-        Assert.assertEquals(driver.getTitle(),expectedTitle);
+    /** 1. Action Methods: */
+
+
+    /** 2. Assertion Methods: */
+
+    public static void assertPageTitle(String pageTitle) throws InterruptedException {
+        Thread.sleep( 3000 );
+        String title = Driver.getDriver().getTitle();
+
+        System.out.println("Driver.getDriver().getTitle() = " + Driver.getDriver().getTitle());
+
+            Assert.assertFalse(
+                    "No Title - FAIL",
+                    title.isEmpty()
+            );
+
+            Assert.assertEquals(
+                    "Actual Title is different - FAIL",
+                    pageTitle,
+                    title
+            );
     }
+
+
+    /** 3. Helping Methods: */
 
     public static void waitForInvisibilityOf(WebElement element){
 

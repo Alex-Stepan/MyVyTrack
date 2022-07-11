@@ -1,9 +1,12 @@
 package com.ast.pages;
 
+import com.ast.utilities.BrowserUtil;
 import com.ast.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import java.util.concurrent.TimeUnit;
 
 public class DashboardPage {
 
@@ -18,14 +21,6 @@ public class DashboardPage {
 
 
     /** 2. WebElements: */
-
-
-    @FindBy(xpath = "(//span[@class='title title-level-1'][contains(.,'Fleet')]")
-    public WebElement fleetModule;
-
-    @FindBy(xpath = "//span[.='Vehicles']")
-    public WebElement vehiclesOption;
-
 
 
     //------------------------------------------------------//

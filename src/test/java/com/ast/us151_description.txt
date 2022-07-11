@@ -1,0 +1,27 @@
+/** US 151 :
+     *  As a user when I am on Vytrack => Fleet => Vehicles,
+     *  I should be able to see Export Grid dropdown,
+     *  Refresh, Reset and Grid Settings Buttons
+     */
+
+
+     Scenario: T1 click functionality of "Export Grid" dropdown
+        Given  User already on <CarEntitles> page
+        When  click "Export Grid" dropdown
+        Then  links CSV & XLSX should be visible
+
+     Scenario: T2 "Export Grid" dropdown location
+         Given  User already on <CarEntitles> page
+         When  User is on  "Car-Entitles..."  page
+         Then  export grid should be visible on the left of the page
+
+     Scenario: TC3 Verification the click functionality of the "Refresh" button
+         Given  User already on <CarEntitles> page
+         When  click <Refresh> button
+         Then  Vehicle Grid should be refreshed
+
+     Scenario: TC4 Verification the click functionality of the "Reset" button
+         Given  User already on <CarEntitles> page
+         When  apply changes to Grid header
+         And  click <Reset> button
+         Then  Vehicle Grid should be reseted

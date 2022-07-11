@@ -10,11 +10,15 @@ import org.openqa.selenium.opera.OperaDriver;
 import java.util.concurrent.TimeUnit;
 
 public class Driver {
+
+
     /** needed to make coding shorter and easier without using TestBase and WebDriverFactory */
 
     //1.
-        //Creating a private constructor, we are closing access to the object of this class from outside this class
-        private  Driver(){}
+        /** Creating a private constructor, we are closing access to the object of this class from outside the class */
+        private Driver() {
+
+        }
 
     //2.
         //Make WebDriver private, to close access from outside this class
@@ -22,7 +26,7 @@ public class Driver {
         private static WebDriver driver;
 
     //3.
-        //Create re-usable utility method which will return same driver instance when we call it
+        /** Re-usable utility method which will return same driver instance when we call it */
         public static WebDriver getDriver(){
 
             //4.
@@ -67,6 +71,16 @@ public class Driver {
             }
 
             return driver;
+
+        }
+
+
+        /** This method will make sure our driver value is always null after using quit() method */
+        public static void closeDriver(){
+            if(driver != null){
+                driver.quit(); // this line will terminate the existing driver session. with using this driver will not be even null
+                driver = null;
+            }
 
         }
 
