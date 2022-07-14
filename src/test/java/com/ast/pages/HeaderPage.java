@@ -27,7 +27,7 @@ public class HeaderPage {
             public WebElement subTitle;
 
         // 2.1. Dashboard Module
-            @FindBy(xpath = "//span[@class='title title-level-1'][contains(.,'Dashboards')]")
+            @FindBy(xpath = "//a//span[normalize-space(text()) = 'Dashboards' and contains(@class, title-level-1)]")
             public WebElement dashboardModule;
 
 
@@ -53,32 +53,32 @@ public class HeaderPage {
 
 
         // 2.3. CUSTOMERS Module
-            @FindBy(xpath = "//span[@class='title title-level-1'][contains(.,'Customers')]")
+            @FindBy(xpath = "//a//span[normalize-space(text()) = 'Customers' and contains(@class, title-level-1)]")
             public WebElement customersModule;
 
 
         // 2.4. SALES Module
-            @FindBy(xpath = "//span[@class='title title-level-1'][contains(.,'Sales')]")
+            @FindBy(xpath = "//a//span[normalize-space(text()) = 'Sales' and contains(@class, title-level-1)]")
             public WebElement salesModule;
 
 
         //2.5. ACTIVITIES Module
-            @FindBy(xpath = "//span[@class='title title-level-1'][contains(.,'Activities')]")
+            @FindBy(xpath = "//a//span[normalize-space(text()) = 'Activities' and contains(@class, title-level-1)]")
             public WebElement activitiesModule;
 
 
         //2.6. MARKETING Module
-            @FindBy(xpath = "//span[@class='title title-level-1'][contains(.,'Marketing')]")
+            @FindBy(xpath = "//a//span[normalize-space(text()) = 'Marketing' and contains(@class, title-level-1)]")
             public WebElement marketingModule;
 
 
         //2.7. Reports & Segments Module
-            @FindBy(xpath = "//span[@class='title title-level-1'][contains(.,'Reports & Segments')]")
+            @FindBy(xpath = "//a//span[normalize-space(text()) = 'Reports & Segments' and contains(@class, title-level-1)]")
             public WebElement reportsAndSegmentsModule;
 
 
         //2.8. System Module
-            @FindBy(xpath = "//span[@class='title title-level-1'][contains(.,'System')]")
+            @FindBy(xpath = "//a//span[normalize-space(text()) = 'System' and contains(@class, title-level-1)]")
             public WebElement systemModule;
 
 

@@ -16,13 +16,14 @@ public class ConfigurationReader {
         static {
 
             try {
+                String path = "configuration.properties";
                 //Create FileInputStream object to open file as a stream in Java memory.
-                FileInputStream file = new FileInputStream("configuration.properties");
+                FileInputStream input = new FileInputStream( path );
 
                 //Load properties object with the file we opened using FileInputStream
-                properties.load(file);
+                properties.load(input);
 
-    //                file.close();
+                    input.close();
 
             } catch (IOException e) {
                 System.out.println("Error occurred while reading configuration file");
@@ -32,8 +33,8 @@ public class ConfigurationReader {
         }
 
     //3.
-        public static String getProperty(String key){
-        return properties.getProperty(key);
+        public static String getProperty(String keyName){
+            return properties.getProperty(keyName);
     }
 
 }
