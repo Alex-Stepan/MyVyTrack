@@ -1,6 +1,4 @@
-package com.ast.others;
-
-import com.ast.pages.LoginPage;
+package com.vyTrack.others;
 
 public class LoginUtil {
 

@@ -1,4 +1,4 @@
- package com.ast.runner;
+ package com.vyTrack.runner;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -11,9 +11,9 @@ import org.junit.runner.RunWith;
                         "rerun:target/rerun.txt"
                         } ,
                 features = "src/test/resources/features" ,
-                glue = "com/ast/step_definitions" ,
-                dryRun = false ,
-                tags = ""
+                glue = "com/vyTrack/step_definitions",
+                dryRun = true ,
+                tags = "@GridSettingsFunctionality"
         )
 
 public class CukesRunner {

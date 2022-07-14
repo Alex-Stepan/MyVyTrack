@@ -1,7 +1,7 @@
-package com.ast.pages;
+package com.vyTrack.pages;
 
-import com.ast.utilities.ConfigurationReader;
-import com.ast.utilities.Driver;
+import com.vyTrack.utilities.ConfigurationReader;
+import com.vyTrack.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -9,12 +9,12 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class HeaderPage {
+public class BasePage {
 
     /**------------------------------------------------------*/
 
     /** 1. Initialization of the page: */
-        public HeaderPage(){
+        public BasePage(){
             PageFactory.initElements(Driver.getDriver(),this);
         }
 
@@ -27,7 +27,7 @@ public class HeaderPage {
             public WebElement subTitle;
 
         // 2.1. Dashboard Module
-            @FindBy(xpath = "//span[@class='title title-level-1'][contains(.,'Dashboards')]")
+            @FindBy(xpath = "//a//span[normalize-space(text()) = 'Dashboards' and contains(@class, title-level-1)]")
             public WebElement dashboardModule;
 
 
@@ -38,7 +38,7 @@ public class HeaderPage {
 
                 @FindBy(xpath = "//span[.='Vehicles']")
                 public WebElement fleet_vehicles;
-                @FindBy(xpath = "//span[.='Vehicles']")
+                @FindBy(xpath = "//span[.='Vehicle Odometer']")
                 public WebElement fleet_vehicleOdometer;
                 @FindBy(xpath = "//span[.='Vehicle Costs']")
                 public WebElement fleet_vehicleCosts;
@@ -53,32 +53,32 @@ public class HeaderPage {
 
 
         // 2.3. CUSTOMERS Module
-            @FindBy(xpath = "//span[@class='title title-level-1'][contains(.,'Customers')]")
+            @FindBy(xpath = "//a//span[normalize-space(text()) = 'Customers' and contains(@class, title-level-1)]")
             public WebElement customersModule;
 
 
         // 2.4. SALES Module
-            @FindBy(xpath = "//span[@class='title title-level-1'][contains(.,'Sales')]")
+            @FindBy(xpath = "//a//span[normalize-space(text()) = 'Sales' and contains(@class, title-level-1)]")
             public WebElement salesModule;
 
 
         //2.5. ACTIVITIES Module
-            @FindBy(xpath = "//span[@class='title title-level-1'][contains(.,'Activities')]")
+            @FindBy(xpath = "//a//span[normalize-space(text()) = 'Activities' and contains(@class, title-level-1)]")
             public WebElement activitiesModule;
 
 
         //2.6. MARKETING Module
-            @FindBy(xpath = "//span[@class='title title-level-1'][contains(.,'Marketing')]")
+            @FindBy(xpath = "//a//span[normalize-space(text()) = 'Marketing' and contains(@class, title-level-1)]")
             public WebElement marketingModule;
 
 
         //2.7. Reports & Segments Module
-            @FindBy(xpath = "//span[@class='title title-level-1'][contains(.,'Reports & Segments')]")
+            @FindBy(xpath = "//a//span[normalize-space(text()) = 'Reports & Segments' and contains(@class, title-level-1)]")
             public WebElement reportsAndSegmentsModule;
 
 
         //2.8. System Module
-            @FindBy(xpath = "//span[@class='title title-level-1'][contains(.,'System')]")
+            @FindBy(xpath = "//a//span[normalize-space(text()) = 'System' and contains(@class, title-level-1)]")
             public WebElement systemModule;
 
 
@@ -118,7 +118,7 @@ public class HeaderPage {
         }
 
         // Module Select
-        public void hoverOver_MainMenu(String moduleName) throws Exception {
+        public void hoverOver_toModule(String moduleName) throws Exception {
 
             Actions action = new Actions( Driver.getDriver() );
 

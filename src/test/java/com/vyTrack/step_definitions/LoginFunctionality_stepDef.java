@@ -1,21 +1,20 @@
-package com.ast.step_definitions;
+package com.vyTrack.step_definitions;
 
-import com.ast.pages.HeaderPage;
-import com.ast.pages.LoginPage;
-import com.ast.utilities.BrowserUtil;
-import com.ast.utilities.ConfigurationReader;
-import com.ast.utilities.Driver;
+import com.vyTrack.pages.BasePage;
+import com.vyTrack.pages.LoginPage;
+import com.vyTrack.utilities.BrowserUtil;
+import com.vyTrack.utilities.ConfigurationReader;
+import com.vyTrack.utilities.Driver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginFunctionality_stepDef {
 
     /** Global objects: */
         LoginPage loginPage = new LoginPage();
-        HeaderPage headerPage = new HeaderPage();
+        BasePage headerPage = new BasePage();
 
 
     /** Scenario Outline: */

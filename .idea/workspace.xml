@@ -4,8 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1c17df0-9780-4b2e-a6c6-c92803cc1e00" name="Changes" comment="us 151, part 1">
+    <list default="true" id="b1c17df0-9780-4b2e-a6c6-c92803cc1e00" name="Changes" comment="Feature Grid Settings Button, T5 ready">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/FrameworkCreationProcess" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/FrameworkCreationProcess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/chees.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/chees.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/others/LoginUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/others/LoginUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/others/Login_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/others/Login_Functionality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/others/VersionAlex_TestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/others/VersionAlex_TestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/pages/CarEntitlesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/pages/CarEntitlesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/pages/HeaderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/runner/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/step_definitions/LoginFunctionality_stepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/LoginFunctionality_stepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/step_definitions/US151_ExportGridDropdown_StDf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/US151_ExportGridDropdown_StDf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/step_definitions/US151_ResetButton_StDf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/US151_ResetButton_StDf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/us151_description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/us151_description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/utilities/BrowserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/utilities/BrowserUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/utilities/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/us151_ResetButton.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/us151_ResetButton.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,12 +155,12 @@
       <module name="MyVyTrack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ast.runner.*" />
+          <option name="PATTERN" value="com.vyTrack.runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ast.runner" />
-      <option name="MAIN_CLASS_NAME" value="com.ast.runner.CukesRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.vyTrack.runner.CukesRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,7 +188,9 @@
       <workItem from="1657210896690" duration="48355000" />
       <workItem from="1657510186522" duration="17493000" />
       <workItem from="1657682367464" duration="242000" />
-      <workItem from="1657721641775" duration="8752000" />
+      <workItem from="1657721641775" duration="9312000" />
+      <workItem from="1657761360596" duration="13258000" />
+      <workItem from="1657846374413" duration="7239000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1656621922539</created>
@@ -199,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657757090582</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="us 151, part 1">
+      <created>1657758034617</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657758034617</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Feature Grid Settings Button, T5 ready">
+      <created>1657829032108</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657829032108</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +254,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="us 151, part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="us 151, part 1" />
+    <MESSAGE value="Feature Grid Settings Button, T5 ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature Grid Settings Button, T5 ready" />
   </component>
 </project>
