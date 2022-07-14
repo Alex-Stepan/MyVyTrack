@@ -22,13 +22,14 @@ public class CarEntitlesPage {
     /** 2. WebElements: */
 
     //2.1. Grid Toolbar
-        @FindBy(xpath = "//a[contains(@title,'export')]")
+        @FindBy(xpath = "//div[contains(@class, 'left grid-toolbar')]//div[@class = 'btn-group']//a[contains(@class, 'dropdown-toggle')]")
+                //      "//a[contains(@title,'export')]"
         public WebElement exportGridDropdown;
 
-        @FindBy(xpath= "//a[@title='CSV']")
+        @FindBy(xpath= "//ul//li//a[@title='CSV']")
         public WebElement csvLink;
 
-        @FindBy(xpath="//a[@title='XLSX']")
+        @FindBy(xpath="//ul//li//a[@title='XLSX']")
         public WebElement xlsxLink;
 
             @FindBy(xpath = "//a[@title='Refresh']")

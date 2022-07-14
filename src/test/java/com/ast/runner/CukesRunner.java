@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 features = "src/test/resources/features" ,
                 glue = "com/ast/step_definitions" ,
                 dryRun = false ,
-                tags = "@wip and @StoreManager"
+                tags = ""
         )
 
 public class CukesRunner {

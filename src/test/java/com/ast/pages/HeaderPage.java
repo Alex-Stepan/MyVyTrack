@@ -32,7 +32,8 @@ public class HeaderPage {
 
 
         // 2.2. FLEET Module
-            @FindBy(xpath = "//span[@class='title title-level-1'][contains(.,'Fleet')]")
+            @FindBy(xpath = "//a//span[normalize-space(text()) = 'Fleet' and contains(@class, title-level-1)]")
+                    //      "//span[@class='title title-level-1'][contains(.,'Fleet')]")
             public WebElement fleetModule;
 
                 @FindBy(xpath = "//span[.='Vehicles']")

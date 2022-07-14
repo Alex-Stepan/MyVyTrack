@@ -75,35 +75,8 @@ public class VytrackVehiclesPage {
         loginBtn.click();
     }
 
-    public void hoverOverToFleet(String moduleName) throws Exception {
 
-        Actions action = new Actions( driver );
-        switch (moduleName.toLowerCase()) {
-            case "fleet":
-                webDriverWait.until( ExpectedConditions.visibilityOf( fleetModule ) );
-                action.moveToElement( fleetModule ).perform();
-                break;
-            case "customer":
-                action.moveToElement( customerModule ).perform();
-                break;
-            default:
-                throw new Exception( "Unknown module name:" + moduleName );
-        }
-    }
 
-    public void clickSubModule(String vehicleName) throws Exception {
-
-        switch (vehicleName.toLowerCase()) {
-            case "vehicles":
-                vehicles.click();
-                break;
-            case "vehicle odometer":
-                vehicleOdometer.click();
-                break;
-            default:
-                throw new Exception( "Unknown submodule name:" + vehicleName );
-        }
-    }
 
     public void clickDropdown(String dropdownName) throws Exception {
 
@@ -233,3 +206,33 @@ public class VytrackVehiclesStepDef {
 //endregion
 
 
+
+
+I use Java as a programming language and j-unit as the testing framework.
+Also i used in couple framework TestNG, so i familiar with it.
+
+I use Maven for managing all the dependencies needed for our project
+and GitHub for version control to check-in code files.
+
+My framework is built with Data Driven approach with a combination of Page Object Model.
+ I use Test data from external files in order to avoid hard-coding,
+also Apache POI help me read Test Data from Excel files.
+
+I use Cucumber Reports for detailed reporting
+I take screenshots for failed test and attach screenshots to automation reports also.
+
+My framework is very modular with created page classes for all the common components, not
+ just for particular pages. If there is something common which occurs in different pages, so I create
+Page Object for that also so that different Test Classes can make use of it.
+
+I am using tags for handling different Test Suites Smoke and Regression Test
+and Jenkins to run those different kind of Test Suites.
+
+Whenever there is a deployment, our Smoke Test Suite is triggered and we have multiple Regression
+Test Suites which run on different schedule. Some are triggered nightly,
+some are triggered every two days and some are triggered weekly and their schedule
+ also depends on how much time a particular Test Suite takes to complete.
+
+As example, our Smoke Test completes under 30 mins, which verifies basic functionality.
+Our nightly suite runs for 8 hours and weekend suite runs for about 24 hours so that we are covering
+ all levels of testing.
