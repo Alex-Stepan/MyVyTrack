@@ -1,9 +1,12 @@
-package com.ast.step_definitions;
+package com.vyTrack.step_definitions;
 
-import com.ast.pages.CarEntitlesPage;
-import com.ast.pages.HeaderPage;
-import com.ast.pages.LoginPage;
-import com.ast.utilities.Driver;
+import com.vyTrack.pages.CarEntitlesPage;
+import com.vyTrack.pages.LoginPage;
+import com.vyTrack.utilities.Driver;
+import com.vyTrack.pages.BasePage;
+import com.vyTrack.pages.CarEntitlesPage;
+import com.vyTrack.pages.LoginPage;
+import com.vyTrack.utilities.Driver;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -16,7 +19,7 @@ public class US151_ResetButton_StDf {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
         CarEntitlesPage carEntitlesPage = new CarEntitlesPage();
         LoginPage loginPage = new LoginPage();
-        HeaderPage headerPage = new HeaderPage();
+        BasePage basepage = new BasePage();
 
     /** Scenario: TC4 Verification the click functionality of the "Reset" button */
 
