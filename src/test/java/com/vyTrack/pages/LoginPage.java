@@ -72,7 +72,7 @@ public class LoginPage {
                     ));
                     break;
                 default:
-                    System.out.println("Please dont be an idiot, and provide correct username!");
+                    System.out.println("Please provide correct username!");
             }
 
         }
