@@ -7,8 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CarEntitlesPage {
 
-
-
     //------------------------------------------------------//
 
     /** 1. Initialization of the page: */
