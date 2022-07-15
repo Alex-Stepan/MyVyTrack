@@ -25,8 +25,8 @@ public class LoginFunctionality_stepDef {
             }
 
         @When("User enters {string} with {string}")
-            public void user_enters_with(String username, String password) {
-                loginPage.login_with_Valid_Credentials(username, password);
+            public void user_enters_with(String username) {
+                loginPage.login_with_Valid_Credentials(username);
             }
 
         @Then("User should navigate to <Dashboard> page")

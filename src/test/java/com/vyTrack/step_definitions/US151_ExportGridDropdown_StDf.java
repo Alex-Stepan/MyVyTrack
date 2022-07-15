@@ -28,7 +28,7 @@ public class US151_ExportGridDropdown_StDf {
             Driver.getDriver().get(ConfigurationReader.getProperty("env"));
             BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("loginPage"));
         //2. login process
-            loginPage.login_with_Valid_Credentials("storemanager", password);
+            loginPage.login_with_Valid_Credentials("storemanager");
             BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("dashboardPage"));
         //3. navigate to Fleet, to Vehicles
             headerPage.hoverOver_toModule( "fleet" );
