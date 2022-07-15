@@ -41,8 +41,6 @@ public class LoginPage {
 
     WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
 
-
-
         public void login_with_Valid_Credentials(String username, String password) {
 
             switch (username.toLowerCase()){
