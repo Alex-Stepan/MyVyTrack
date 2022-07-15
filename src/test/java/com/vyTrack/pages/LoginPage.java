@@ -46,6 +46,7 @@ public class LoginPage {
         public void login_with_Valid_Credentials(String username, String password) {
 
             switch (username.toLowerCase()){
+
                 case "truckdriver" :
                     usernameBox.sendKeys(ConfigurationReader.getProperty("username.TruckDriver2"));
                     passwordBox.sendKeys(ConfigurationReader.getProperty("password"));
