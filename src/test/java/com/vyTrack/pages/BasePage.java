@@ -1,7 +1,7 @@
-package com.ast.pages;
+package com.vyTrack.pages;
 
-import com.ast.utilities.ConfigurationReader;
-import com.ast.utilities.Driver;
+import com.vyTrack.utilities.ConfigurationReader;
+import com.vyTrack.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -9,12 +9,12 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class HeaderPage {
+public class BasePage {
 
     /**------------------------------------------------------*/
 
     /** 1. Initialization of the page: */
-        public HeaderPage(){
+        public BasePage(){
             PageFactory.initElements(Driver.getDriver(),this);
         }
 
@@ -38,7 +38,7 @@ public class HeaderPage {
 
                 @FindBy(xpath = "//span[.='Vehicles']")
                 public WebElement fleet_vehicles;
-                @FindBy(xpath = "//span[.='Vehicles']")
+                @FindBy(xpath = "//span[.='Vehicle Odometer']")
                 public WebElement fleet_vehicleOdometer;
                 @FindBy(xpath = "//span[.='Vehicle Costs']")
                 public WebElement fleet_vehicleCosts;
@@ -118,7 +118,7 @@ public class HeaderPage {
         }
 
         // Module Select
-        public void hoverOver_MainMenu(String moduleName) throws Exception {
+        public void hoverOver_toModule(String moduleName) throws Exception {
 
             Actions action = new Actions( Driver.getDriver() );
 

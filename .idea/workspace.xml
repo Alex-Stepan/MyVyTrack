@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1c17df0-9780-4b2e-a6c6-c92803cc1e00" name="Changes" comment="us 151, part 1">
+    <list default="true" id="b1c17df0-9780-4b2e-a6c6-c92803cc1e00" name="Changes" comment="Alex --&gt; General,  Push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/pages/CarEntitlesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ast/pages/CarEntitlesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/pages/HeaderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ast/pages/HeaderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ast/runner/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ast/step_definitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/step_definitions/Navigation_toCarEntitlesPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/step_definitions/US151_RefreshButton_StDf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ast/step_definitions/US151_ResetButton_StDf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ast/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ast/utilities/ConfigurationReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/navigationTo_CarEntitlesPage.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/us151_ResetButton.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/us151_ResetButton.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="General" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -146,12 +136,12 @@
       <module name="MyVyTrack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ast.runner.*" />
+          <option name="PATTERN" value="com.vyTrack.runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ast.runner" />
-      <option name="MAIN_CLASS_NAME" value="com.ast.runner.CukesRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.vyTrack.runner.CukesRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="Cucumber Java.Feature: us151_ExportGrid_Dropdown" />
-        <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="Cucumber Java.Scenario:  (1)" />
         <item itemvalue="Cucumber Java.Scenario: T1 click functionality of &quot;Export Grid&quot; dropdown" />
+        <item itemvalue="Cucumber Java.Scenario: " />
+        <item itemvalue="Cucumber Java.Feature: us151_ExportGrid_Dropdown" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657758034617</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="General Branch commit">
+      <created>1657915425004</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657915425004</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Alex --&gt; General,  Push">
+      <created>1657915697718</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657915697718</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,17 +241,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="us 151, part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="us 151, part 1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/ast/runner/CukesRunner.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="General Branch commit" />
+    <MESSAGE value="Alex --&gt; General,  Push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alex --&gt; General,  Push" />
   </component>
 </project>

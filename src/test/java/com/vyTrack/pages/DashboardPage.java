@@ -1,12 +1,7 @@
-package com.ast.pages;
+package com.vyTrack.pages;
 
-import com.ast.utilities.BrowserUtil;
-import com.ast.utilities.Driver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+import com.vyTrack.utilities.Driver;
 import org.openqa.selenium.support.PageFactory;
-
-import java.util.concurrent.TimeUnit;
 
 public class DashboardPage {
 

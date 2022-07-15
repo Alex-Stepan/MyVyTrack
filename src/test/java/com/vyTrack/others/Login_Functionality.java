@@ -1,9 +1,5 @@
-package com.ast.others;
+package com.vyTrack.others;
 
-import com.ast.utilities.ConfigurationReader;
-import com.ast.utilities.Driver;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 public class Login_Functionality {
 //
 //    @Test (priority = 1)
