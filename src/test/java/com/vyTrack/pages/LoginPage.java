@@ -10,7 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage {
 
-
     //------------------------------------------------------//
 
     /** 1. Initialization of the page: */
@@ -19,7 +18,6 @@ public class LoginPage {
         }
 
     //------------------------------------------------------//
-
 
     /** 2. WebElements: */
 
