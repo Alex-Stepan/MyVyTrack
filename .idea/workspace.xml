@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1c17df0-9780-4b2e-a6c6-c92803cc1e00" name="Changes" comment="Master into Master">
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/us151_ResetButton.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/runner/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/us151_ExportGrid_Dropdown.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/us151_ExportGrid_Dropdown.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/us151_GridSettingsButton.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/us151_GridSettingsButton.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,7 @@
       <recent name="C:\Users\Alex PC\IdeaProjects\My\VyTrack\MyVyTrack\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario:  (2)">
+  <component name="RunManager" selected="JUnit.CukesRunner">
     <configuration name="Scenario:  (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/us151_RefreshButton.feature" />
@@ -150,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario:  (2)" />
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario:  (2)" />
         <item itemvalue="Cucumber Java.Scenario:  (1)" />
         <item itemvalue="Cucumber Java.Scenario: T1 click functionality of &quot;Export Grid&quot; dropdown" />
         <item itemvalue="Cucumber Java.Scenario: " />
@@ -236,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657919986600</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Master into Master">
+      <created>1657920187354</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657920187355</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
