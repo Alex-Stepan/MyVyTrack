@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1c17df0-9780-4b2e-a6c6-c92803cc1e00" name="Changes" comment="Master into Master 07-18-2022">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/runner/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/utilities/Driver.java" afterDir="false" />
-    </list>
+    <list default="true" id="b1c17df0-9780-4b2e-a6c6-c92803cc1e00" name="Changes" comment="framework updates 07-18-2022 part 2:&#10;add dependencies to pom.xml&#10;add plugins to pom.xml&#10;add FailedClassRunner&#10;update Runner class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -253,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658153426730</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="framework updates 07-18-2022 part 2:&#10;add dependencies to pom.xml&#10;add plugins to pom.xml&#10;add FailedClassRunner&#10;update Runner class">
+      <created>1658156390142</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658156390142</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +279,7 @@
     <MESSAGE value="Alex --&gt; General,  Push" />
     <MESSAGE value="Master into Master" />
     <MESSAGE value="Master into Master 07-18-2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="Master into Master 07-18-2022" />
+    <MESSAGE value="framework updates 07-18-2022 part 2:&#10;add dependencies to pom.xml&#10;add plugins to pom.xml&#10;add FailedClassRunner&#10;update Runner class" />
+    <option name="LAST_COMMIT_MESSAGE" value="framework updates 07-18-2022 part 2:&#10;add dependencies to pom.xml&#10;add plugins to pom.xml&#10;add FailedClassRunner&#10;update Runner class" />
   </component>
 </project>
