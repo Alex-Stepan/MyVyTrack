@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1c17df0-9780-4b2e-a6c6-c92803cc1e00" name="Changes" comment="Master into Master">
+    <list default="true" id="b1c17df0-9780-4b2e-a6c6-c92803cc1e00" name="Changes" comment="Master into Master 07-18-2022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/runner/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/us151_ExportGrid_Dropdown.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/us151_ExportGrid_Dropdown.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/us151_GridSettingsButton.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/us151_GridSettingsButton.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657920187355</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Master into Master 07-18-2022">
+      <created>1658153426730</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658153426730</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +276,7 @@
     <MESSAGE value="General Branch commit" />
     <MESSAGE value="Alex --&gt; General,  Push" />
     <MESSAGE value="Master into Master" />
-    <option name="LAST_COMMIT_MESSAGE" value="Master into Master" />
+    <MESSAGE value="Master into Master 07-18-2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="Master into Master 07-18-2022" />
   </component>
 </project>
