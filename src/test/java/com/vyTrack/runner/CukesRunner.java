@@ -3,6 +3,7 @@
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
+
     @RunWith(Cucumber.class)
         @CucumberOptions(
                 plugin = {
@@ -15,8 +16,9 @@ import org.junit.runner.RunWith;
                 features = "src/test/resources/features" ,
                 glue = "com/vyTrack/step_definitions" ,
                 dryRun = false ,
-                tags = "@smoke" ,
-                publish = true
+                tags = "@ResetBtn"
+//                ,
+//                publish = true
         )
 
 public class CukesRunner {

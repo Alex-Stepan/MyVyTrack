@@ -22,8 +22,10 @@ public class CarEntitlesPage {
     /** 2. WebElements: */
 
     //2.1. Grid Toolbar
-        @FindBy(xpath = "//div[contains(@class, 'left grid-toolbar')]//div[@class = 'btn-group']//a[contains(@class, 'dropdown-toggle')]")
+        @FindBy(xpath = "//div[@class='btn-group']//a[contains(@class, 'dropdown-toggle')]")
+                //div[@id=\"grid-custom-entity-grid-201366832\"]//div[contains(@class, 'left grid-toolbar')]//div[@class = 'btn-group']//a[contains(@class, 'dropdown-toggle')]")
                 //      "//a[contains(@title,'export')]"
+                //*[@id="grid-custom-entity-grid-201366832"]/div[2]/div[1]/div/div[2]/div[2]/div/div/a
         public WebElement exportGridDropdown;
 
             @FindBy(xpath= "//ul//li//a[@title='CSV']")

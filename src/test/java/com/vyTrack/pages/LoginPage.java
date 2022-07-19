@@ -43,53 +43,53 @@ public class LoginPage {
     /** 3. Methods: */
 
     WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
+    //------------------------------------------------------//
 
-        public void login_with_Valid_Credentials(String username) {
 
+        public void login_with_Valid_Credentials(String username, String password) {
+            //1. input username between 3 available options
+            usernameBox.clear();
+            usernameBox.sendKeys(ConfigurationReader.getProperty(username));
+            //2. input password
+            passwordBox.clear();
+            passwordBox.sendKeys(ConfigurationReader.getProperty(password));
+            //3. click on LOG IN button
+            loginBtn.click();
+            //4. wait until navigation to Dashboard page
+            wait.until(ExpectedConditions.titleContains(
+                    ConfigurationReader.getProperty("dashboardPage")
+            ));
+        }
+
+    //------------------------------------------------------//
+        public void login_with_parameters(String username) {
+            //1. input username between 3 available options
+            usernameBox.clear();
             switch (username.toLowerCase()){
-
                 case "truckdriver" :
                     usernameBox.sendKeys(ConfigurationReader.getProperty("username.TruckDriver2"));
-                    passwordBox.sendKeys(ConfigurationReader.getProperty("password"));
-                    loginBtn.click();
-                    wait.until(ExpectedConditions.titleContains(
-                            ConfigurationReader.getProperty("dashboardPage")
-                    ));
                     break;
                 case "storemanager" :
                     usernameBox.sendKeys(ConfigurationReader.getProperty("username.StoreMan2"));
-                    passwordBox.sendKeys(ConfigurationReader.getProperty("password"));
-                    loginBtn.click();
-                    wait.until(ExpectedConditions.titleContains(
-                            ConfigurationReader.getProperty("dashboardPage")
-                    ));
                     break;
                 case "salesmanager" :
                     usernameBox.sendKeys(ConfigurationReader.getProperty("username.SalesMan2"));
-                    passwordBox.sendKeys(ConfigurationReader.getProperty("password"));
-                    loginBtn.click();
-                    wait.until(ExpectedConditions.titleContains(
-                            ConfigurationReader.getProperty("dashboardPage")
-                    ));
                     break;
                 default:
                     System.out.println("Please provide correct username!");
             }
-
+            //2. input password
+            passwordBox.clear();
+            passwordBox.sendKeys(ConfigurationReader.getProperty("password"));
+            //3. click on LOG IN button
+            loginBtn.click();
+            //4. wait until navigation to Dashboard page
+            wait.until(ExpectedConditions.titleContains(
+                    ConfigurationReader.getProperty("dashboardPage")
+            ));
         }
 
-    //------------------------------------------------------//
 
-    public void user_logging_toDashboardSystem() {
-        usernameBox.sendKeys(ConfigurationReader.getProperty("testUser"));
-        passwordBox.sendKeys(ConfigurationReader.getProperty("password"));
-        loginBtn.click();
-        wait.until(ExpectedConditions.titleContains(
-                ConfigurationReader.getProperty("dashboardPage")
-        ));
-    }
-
-    //------------------------------------------------------//
 
 
 }
