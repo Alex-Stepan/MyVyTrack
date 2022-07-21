@@ -26,6 +26,8 @@ public class BasePage {
             @FindBy(xpath = "//h1[contains(@class,'subtitle')]")
             public WebElement subTitle;
 
+        //modulesListTruckDriver.toString() = [Fleet, Customers, Activities, System]
+
         // 2.1. Dashboard Module
             @FindBy(xpath = "//a//span[normalize-space(text()) = 'Dashboards' and contains(@class, title-level-1)]")
             public WebElement dashboardModule;

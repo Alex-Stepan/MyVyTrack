@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
                 features = "src/test/resources/features" ,
                 glue = "com/vyTrack/step_definitions" ,
                 dryRun = false ,
-                tags = "@ResetBtn"
+                tags = "@wip"
 //                ,
 //                publish = true
         )

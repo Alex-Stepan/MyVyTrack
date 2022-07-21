@@ -3,8 +3,8 @@
 Feature:  "Grid Settings" button on <Car Entitles> page
 
   User Story: US153 As a user when I am on Vytrack => Fleet => Vehicles,
-      I should be able to see Export Grid dropdown,
-      Refresh, Reset and Grid Settings Buttons
+              I should be able to see Export Grid dropdown,
+              Refresh, Reset and Grid Settings Buttons
 
   Tests:
   TC4 Verification the click functionality of the "Reset" button

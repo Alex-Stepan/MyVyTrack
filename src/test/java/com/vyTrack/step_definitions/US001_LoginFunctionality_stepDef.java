@@ -86,4 +86,17 @@ public class US001_LoginFunctionality_stepDef {
 
     }
 
+
+    @Given("User is logged as TruckDriver")
+    public void user_is_logged_as_truck_driver() throws InterruptedException {
+        //1. start the WebDriver and get to Login page
+        Driver.getDriver().get(ConfigurationReader.getProperty("env"));
+        //2. verify that you are at Login page
+        BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("loginPage"));
+        //3. Login with parameters
+        loginPage.login_with_parameters("truckdriver");
+        //4. verify that you are at Dashboard page
+        BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("dashboardPage"));
+    }
+
 }

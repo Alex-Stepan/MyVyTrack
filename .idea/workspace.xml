@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1c17df0-9780-4b2e-a6c6-c92803cc1e00" name="Changes" comment="Login functionality feature updated">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/US001_LoginFunctionality_stepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/US153_ResetBtn_GridSettingsBtn_StDf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/us001_loginFunctionality.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/us153_ResetBtn_GridSettingsBtn.feature" afterDir="false" />
+    <list default="true" id="b1c17df0-9780-4b2e-a6c6-c92803cc1e00" name="Changes" comment="US001 Login Functionality&#10;US151 &quot;Export Grid&quot; dropdown functionality&#10;US153 &quot;Reset&quot; button functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/pages/CarEntitlesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/pages/CarEntitlesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/runner/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/LoginFunctionality_stepDef.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/US151_ExportGridDropdown_StDf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/US151_ExportGridDropdown_StDf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/US151_ResetButton_StDf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/loginFunctionality.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/us151_ExportGrid_Dropdown.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/us151_ExportGrid_Dropdown.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/us151_GridSettingsButton.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/US001_LoginFunctionality_stepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/US001_LoginFunctionality_stepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/us153_ResetBtn_GridSettingsBtn.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/us153_ResetBtn_GridSettingsBtn.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +62,14 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CukesRunner">
-    <configuration name="Feature: us152_ExportGridDropdown_byTester" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: us153_ResetBtn_GridSettingsBtn" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/us152_ExportGridDropdown_byTester.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/us153_ResetBtn_GridSettingsBtn.feature" />
+      <option name="GLUE" value="com.vyTrack.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MyVyTrack" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: us152_ExportGridDropdown_byTester" />
+      <option name="SUGGESTED_NAME" value="Feature: us153_ResetBtn_GridSettingsBtn" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +81,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: us153_ResetBtn_GridSettingsBtn" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: us154_ResetBtn_GridSettingsBtn_byTester" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/us153_ResetBtn_GridSettingsBtn.feature" />
-      <option name="GLUE" value="com.vyTrack.step_definitions" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/us154_ResetBtn_GridSettingsBtn_byTester.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MyVyTrack" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: us153_ResetBtn_GridSettingsBtn" />
+      <option name="SUGGESTED_NAME" value="Feature: us154_ResetBtn_GridSettingsBtn_byTester" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -165,10 +157,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Feature: us154_ResetBtn_GridSettingsBtn_byTester" />
         <item itemvalue="Cucumber Java.Scenario: TC4 Verification the click functionality of the &quot;Reset&quot; button" />
         <item itemvalue="Cucumber Java.Feature: us153_ResetBtn_GridSettingsBtn" />
         <item itemvalue="Cucumber Java.Scenario: Tester click &quot;Export Grid&quot; dropdown (1)" />
-        <item itemvalue="Cucumber Java.Feature: us152_ExportGridDropdown_byTester" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +181,7 @@
       <workItem from="1658166585167" duration="4491000" />
       <workItem from="1658174960220" duration="12513000" />
       <workItem from="1658252444331" duration="2631000" />
-      <workItem from="1658261708147" duration="3759000" />
+      <workItem from="1658261708147" duration="12179000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1656621922539</created>
@@ -282,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658156766139</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="US001 Login Functionality&#10;US151 &quot;Export Grid&quot; dropdown functionality&#10;US153 &quot;Reset&quot; button functionality">
+      <created>1658265559684</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658265559684</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +308,7 @@
     <MESSAGE value="framework updates 07-18-2022 part 2:&#10;add dependencies to pom.xml&#10;add plugins to pom.xml&#10;add FailedClassRunner&#10;update Runner class" />
     <MESSAGE value="Driver class updated:&#10;added DriverPool" />
     <MESSAGE value="Login functionality feature updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login functionality feature updated" />
+    <MESSAGE value="US001 Login Functionality&#10;US151 &quot;Export Grid&quot; dropdown functionality&#10;US153 &quot;Reset&quot; button functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="US001 Login Functionality&#10;US151 &quot;Export Grid&quot; dropdown functionality&#10;US153 &quot;Reset&quot; button functionality" />
   </component>
 </project>
