@@ -32,6 +32,13 @@ public class BasePage {
             @FindBy(xpath = "//a//span[normalize-space(text()) = 'Dashboards' and contains(@class, title-level-1)]")
             public WebElement dashboardModule;
 
+                @FindBy(xpath = "//span[.='Table']")
+                public WebElement dashboards_table;
+                @FindBy(xpath = "//span[.='Dashboard']")
+                public WebElement dashboards_dashboard;
+                @FindBy(xpath = "//span[.='Manage Dashboards']")
+                public WebElement dashboards_manageDashboards;
+
 
         // 2.2. FLEET Module
             @FindBy(xpath = "//a//span[normalize-space(text()) = 'Fleet' and contains(@class, title-level-1)]")
@@ -125,7 +132,7 @@ public class BasePage {
             Actions action = new Actions( Driver.getDriver() );
 
             switch (moduleName.toLowerCase()) {
-                case "dashboard":
+                case "dashboards":
                     wait.until( ExpectedConditions.visibilityOf( dashboardModule ) );
                     action.moveToElement( dashboardModule ).perform();
                     break;
@@ -164,7 +171,29 @@ public class BasePage {
         }
 
 
-        // Sub-Module Fleet Select
+    // Sub-Module Dashboards Select
+    public void click_SubModule_Dashboards(String vehicleName) throws Exception {
+
+        switch (vehicleName.toLowerCase()) {
+            case "table":
+                wait.until( ExpectedConditions.visibilityOf(dashboards_table) );
+                dashboards_table.click();
+                break;
+            case "dashboard":
+                wait.until( ExpectedConditions.visibilityOf( dashboards_dashboard ) );
+                dashboards_dashboard.click();
+                break;
+            case "manage dashboards":
+                wait.until( ExpectedConditions.visibilityOf( dashboards_manageDashboards ) );
+                dashboards_manageDashboards.click();
+                break;
+
+            default:
+                throw new Exception( "Unknown submodule name:" + vehicleName );
+        }
+    }
+
+    // Sub-Module Fleet Select
             public void click_SubModule_Fleet(String vehicleName) throws Exception {
 
                 switch (vehicleName.toLowerCase()) {

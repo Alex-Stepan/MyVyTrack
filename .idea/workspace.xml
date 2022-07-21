@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1c17df0-9780-4b2e-a6c6-c92803cc1e00" name="Changes" comment="US001 Login Functionality&#10;US151 &quot;Export Grid&quot; dropdown functionality&#10;US153 &quot;Reset&quot; button functionality">
+    <list default="true" id="b1c17df0-9780-4b2e-a6c6-c92803cc1e00" name="Changes" comment="us154">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/runner/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/US001_LoginFunctionality_stepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/US001_LoginFunctionality_stepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/us153_ResetBtn_GridSettingsBtn.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/us153_ResetBtn_GridSettingsBtn.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/US154_SelectAllHeaderModulesAvailable_StDf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vyTrack/step_definitions/US154_SelectAllHeaderModulesAvailable_StDf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/us154_SelectAllHeaderModulesAvailable.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/us154_SelectAllHeaderModulesAvailable.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,15 +98,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC4 Verification the click functionality of the &quot;Reset&quot; button" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Navigation to All SubModules from DASHBOARD Module" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/us153_ResetBtn_GridSettingsBtn.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/us154_SelectAllHeaderModulesAvailable.feature" />
       <option name="GLUE" value="com.vyTrack.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MyVyTrack" />
-      <option name="NAME_FILTER" value="^TC4 Verification the click functionality of the \&quot;Reset\&quot; button$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC4 Verification the click functionality of the \&quot;Reset\&quot; button$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC4 Verification the click functionality of the &quot;Reset&quot; button" />
+      <option name="NAME_FILTER" value="^Navigation to All SubModules from DASHBOARD Module$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Navigation to All SubModules from DASHBOARD Module$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Navigation to All SubModules from DASHBOARD Module" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -119,15 +118,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Tester click &quot;Export Grid&quot; dropdown (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC4 Verification the click functionality of the &quot;Reset&quot; button" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/us152_ExportGridDropdown_byTester.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/us153_ResetBtn_GridSettingsBtn.feature" />
       <option name="GLUE" value="com.vyTrack.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MyVyTrack" />
-      <option name="NAME_FILTER" value="^Tester click \&quot;Export Grid\&quot; dropdown$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Tester click \&quot;Export Grid\&quot; dropdown$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Tester click &quot;Export Grid&quot; dropdown" />
+      <option name="NAME_FILTER" value="^TC4 Verification the click functionality of the \&quot;Reset\&quot; button$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC4 Verification the click functionality of the \&quot;Reset\&quot; button$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC4 Verification the click functionality of the &quot;Reset&quot; button" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -157,10 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Navigation to All SubModules from DASHBOARD Module" />
         <item itemvalue="Cucumber Java.Feature: us154_ResetBtn_GridSettingsBtn_byTester" />
         <item itemvalue="Cucumber Java.Scenario: TC4 Verification the click functionality of the &quot;Reset&quot; button" />
         <item itemvalue="Cucumber Java.Feature: us153_ResetBtn_GridSettingsBtn" />
-        <item itemvalue="Cucumber Java.Scenario: Tester click &quot;Export Grid&quot; dropdown (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +180,7 @@
       <workItem from="1658166585167" duration="4491000" />
       <workItem from="1658174960220" duration="12513000" />
       <workItem from="1658252444331" duration="2631000" />
-      <workItem from="1658261708147" duration="12179000" />
+      <workItem from="1658261708147" duration="23220000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1656621922539</created>
@@ -281,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658265559684</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="us154">
+      <created>1658412020032</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658412020032</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +315,7 @@
     <MESSAGE value="Driver class updated:&#10;added DriverPool" />
     <MESSAGE value="Login functionality feature updated" />
     <MESSAGE value="US001 Login Functionality&#10;US151 &quot;Export Grid&quot; dropdown functionality&#10;US153 &quot;Reset&quot; button functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="US001 Login Functionality&#10;US151 &quot;Export Grid&quot; dropdown functionality&#10;US153 &quot;Reset&quot; button functionality" />
+    <MESSAGE value="us154" />
+    <option name="LAST_COMMIT_MESSAGE" value="us154" />
   </component>
 </project>
