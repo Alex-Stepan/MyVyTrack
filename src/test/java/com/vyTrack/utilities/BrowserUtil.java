@@ -13,21 +13,33 @@ public class BrowserUtil {
     /** 2. Assertion Methods: */
 
     public static void assertPageTitle(String pageTitle) throws InterruptedException {
-        Thread.sleep( 3000 );
-        String title = Driver.getDriver().getTitle();
-
-        System.out.println("Driver.getDriver().getTitle() = " + Driver.getDriver().getTitle());
-
+        //1.
+            Thread.sleep( 3000 );
+        //2.
+            String actualTitle = Driver.getDriver().getTitle();
+        //3. print out the actual title of the page
+            System.out.println("actual title is: " + Driver.getDriver().getTitle());
+        //4. assert if title is empty
             Assert.assertFalse(
                     "No Title - FAIL",
-                    title.isEmpty()
+                    actualTitle.isEmpty()
             );
-
-            Assert.assertEquals(
-                    "Actual Title is different - FAIL",
-                    pageTitle,
-                    title
-            );
+        //5. assert if title equals with expected
+            //5.1.
+                String newActualTitle = "";
+            //5.2.
+                if (actualTitle.startsWith("All - ")){
+                    newActualTitle = actualTitle.substring(6);
+                    System.out.println("\tnewActualTitle = " + newActualTitle);
+                } else {
+                    newActualTitle = actualTitle;
+                }
+            //5.3.
+                Assert.assertEquals(
+                        "Actual Title is different - FAIL",
+                        pageTitle,
+                        newActualTitle
+                );
     }
 
 

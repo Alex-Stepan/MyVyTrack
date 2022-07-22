@@ -76,27 +76,82 @@ public class US154_SelectAllHeaderModulesAvailable_StDf {
         //5. navigate to Fleet >> Table
             basePage.hoverOver_toModule("dashboards");
             basePage.click_SubModule_Dashboards("table");
-        //6. assert the title actual with expected (from Configuration.Properties)
-            BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("dashboardsTablePage"));
+            //. assert the title actual with expected (from Configuration.Properties)
+                BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("dashboardsTablePage"));
 
-        //7. navigate to Fleet >> Dashboard
+        //6. navigate to Fleet >> Dashboard
             basePage.hoverOver_toModule("dashboards");
             basePage.click_SubModule_Dashboards("dashboard");
-        //8. assert the title actual with expected (from Configuration.Properties)
-            BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("dashboardsDashboardPage"));
+            //. assert the title actual with expected (from Configuration.Properties)
+                BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("dashboardsDashboardPage"));
 
-        //9. navigate to Fleet >> Manage Dashboards
+        //7. navigate to Fleet >> Manage Dashboards
             basePage.hoverOver_toModule("dashboards");
             basePage.click_SubModule_Dashboards("manage dashboards");
-        //10. assert the title actual with expected (from Configuration.Properties)
-            BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("dashboardsManageDashboardsPage"));
+            //. assert the title actual with expected (from Configuration.Properties)
+                BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("dashboardsManageDashboardsPage"));
 
     }
 
 
     //-------------------------------------------------------
 
+    /**
+     *  @us154.05
+     *     Scenario Outline: Navigation to All SubModules from FLEET Module
+     *       Given User is logged as "<user>"
+     *       Then User navigates through each subModule from Fleet Module
+     *       Examples:
+     *         | user         |
+     *         | TruckDriver  |
+     *         | StoreManager |
+     *         | SalesManager |
+     */
+    @Then("User navigates through each subModule from Fleet Module")
+    public void user_navigates_through_each_sub_module_from_fleet_module() throws Exception {
+        //5. navigate to Fleet >> Table
+            basePage.hoverOver_toModule("fleet");
+            basePage.click_SubModule_Fleet("vehicles");
+            //. assert the title actual with expected (from Configuration.Properties)
+                BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("vehiclesPage"));
 
+        //6. navigate to Fleet >> Dashboard
+            basePage.hoverOver_toModule("fleet");
+            basePage.click_SubModule_Fleet("vehicle odometer");
+            //. assert the title actual with expected (from Configuration.Properties)
+                BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("vehicleOdometerPage"));
+
+        //7. navigate to Fleet >> Manage Dashboards
+            basePage.hoverOver_toModule("fleet");
+            basePage.click_SubModule_Fleet("vehicle costs");
+            //. assert the title actual with expected (from Configuration.Properties)
+                BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("vehicleCostsPage"));
+
+        //8. navigate to Fleet >> Table
+            basePage.hoverOver_toModule("fleet");
+            basePage.click_SubModule_Fleet("vehicle contracts");
+            //. assert the title actual with expected (from Configuration.Properties)
+                BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("vehicleContractsPage"));
+
+        //9. navigate to Fleet >> Dashboard
+            basePage.hoverOver_toModule("fleet");
+            basePage.click_SubModule_Fleet("vehicles fuel logs");
+            //. assert the title actual with expected (from Configuration.Properties)
+                BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("vehiclesFuelLogsPage"));
+
+        //10. navigate to Fleet >> Manage Dashboards
+            basePage.hoverOver_toModule("fleet");
+            basePage.click_SubModule_Fleet("vehicle service logs");
+            //. assert the title actual with expected (from Configuration.Properties)
+                BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("vehicleServiceLogsPage"));
+
+        //11. navigate to Fleet >> Manage Dashboards
+            basePage.hoverOver_toModule("fleet");
+            basePage.click_SubModule_Fleet("vehicles model");
+            //. assert the title actual with expected (from Configuration.Properties)
+                BrowserUtil.assertPageTitle(ConfigurationReader.getProperty("vehiclesModelPage"));
+
+    }
 
 
 
